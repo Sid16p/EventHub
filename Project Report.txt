@@ -1,0 +1,57 @@
+Project Report: EventHub
+1. Overview
+EventHub is a modern, full-featured event management and RSVP platform that enables organizers to create and manage events and offers attendees a seamless experience to discover, RSVP, and stay updated in real time. Leveraging a combination of Convex, React, and TailwindCSS, it delivers a responsive, real-time UI tailored to both organizers and attendees.
+
+
+2. Core Features
+For Event Organizers:
+Dashboard showcasing event statistics and quick overviews.
+Event Management: Full CRUD capabilities for creating, editing, viewing, and deleting events.
+RSVP Management: Easy tracking of attendee responses ("Yes", "No", "Maybe").
+Real-Time Notifications when RSVPs are submitted.
+Profile Management to update organizer details.
+
+For Attendees:
+Event Discovery with search, filtering by category and location.
+RSVP Functionality with response options and optional notes.
+Personalized "My Events" View to monitor and track RSVPs.
+Profile Management to save interests and preferences.
+
+
+3. Technical Highlights
+Reactive, Real-Time Database powered by Convex for immediate UI updates.
+Full-Text Search capabilities to enhance event discovery.
+Role-Based Access Control differentiating Organizer and Attendee functionalities.
+TailwindCSS for building a responsive, modern UI with smooth transitions and polished UX.
+Authentication handled via Convex Auth.
+Notifications System for real-time updates on RSVPs and events.
+
+
+4. Tech Stack Summary
+Frontend: React, TailwindCSS
+Backend / DB: Convex (reactive database + authentication)
+UX/UI: Responsive design, smooth transitions, loading states
+Infrastructure: Standard JavaScript/TypeScript tooling via Vite
+
+
+5. Setup & Usage Guide
+
+Clone the repository:
+git clone https://github.com/your-username/eventhub.git  
+cd eventhub
+
+Install dependencies:
+npm install
+
+Set up environment variables:
+Create a .env file in the project root.
+Launch the development server:
+npm run dev
+
+Open your browser at http://localhost:3000 and start:
+Organizers: sign up, set up profile, create/manage events and view RSVPs
+Attendees: register, browse events, RSVP, track attended events
+
+
+6. Conclusion
+EventHub stands out as an elegant, real-time event management platform built with modern technologies. The use of Convex empowers reactive updates and authentication, while React and TailwindCSS deliver a seamless and responsive user interface. By serving both organizers and attendees efficiently, the application embodies a clean and engaging solution to event creation, discovery, and RSVP management.
